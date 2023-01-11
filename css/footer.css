@@ -1,6 +1,6 @@
 footer {
-  max-width: 1440px;
-  height: 439px;
+  margin-top: 64px;
+  height: 440px;
   background: rgba(205, 16, 255, 0.05);
   background: linear-gradient(
     44deg,
@@ -12,26 +12,14 @@ footer {
 }
 
 .footer-up {
-  display: flex;
-  align-items: center;
-  padding: 64px 0 0 160px;
-}
-
-.footer-logo {
-  width: 220px;
-  height: 30px;
-}
-
-.footer-logo > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 1120px;
+  margin: auto;
+  padding-top: 64px;
 }
 
 .footer-down {
-  display: flex;
-  margin: auto;
-  padding: 50px 0 0 390px;
+  flex-wrap: wrap;
+  padding-top: 50px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
@@ -40,12 +28,17 @@ footer {
   color: #001a49;
 }
 
-.help-menu > div {
+.help-menu > .list {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.help-menu > div > ul:nth-child(2n) {
-  margin: 0 100px 0 140px;
+.list > ul:first-child {
+  margin-right: 140px;
+}
+
+.list > ul:last-child {
+  margin-right: 100px;
 }
 
 li {
@@ -60,10 +53,8 @@ li {
 }
 
 .search {
-  display: flex;
-  align-items: center;
+  margin-left: 80px;
   width: 100%;
-  margin: 0 160px 0 80px;
   height: 66px;
   background: #ffffff;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.0501257);
@@ -71,8 +62,8 @@ li {
 }
 
 .search > input {
+  height: 66px;
   width: 100%;
-  height: 100%;
   padding-left: 40px;
   border-radius: 33px;
   background: #ffffff;
@@ -81,7 +72,7 @@ li {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 200px;
   color: #4f596a;
   mix-blend-mode: normal;
   opacity: 0.5;

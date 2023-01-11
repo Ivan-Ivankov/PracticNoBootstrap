@@ -98,7 +98,6 @@
 }
 
 .videos {
-  justify-content: space-around;
   margin-left: 157px;
   width: 278px;
   height: 66px;
@@ -112,14 +111,13 @@
   color: #ffffff;
 }
 
-.video-left::before {
+.video-left::after {
   content: "6 videos";
-  margin-left: 30px;
+  padding-right: 34px;
 }
 
 .video-right::before {
   content: "4,5 hours";
-  padding-left: 25px;
-  margin-right: 30px;
+  padding-left: 34px;
   border-left: 1px solid rgba(151, 151, 151, 1);
 }
