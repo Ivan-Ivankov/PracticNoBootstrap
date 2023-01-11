@@ -1,4 +1,5 @@
 footer {
+  position: relative;
   margin-top: 64px;
   height: 440px;
   background: rgba(205, 16, 255, 0.05);
@@ -9,6 +10,7 @@ footer {
     rgba(159, 6, 255, 0.05) 84,
     63%
   );
+  z-index: 10;
 }
 
 .footer-up {
@@ -30,7 +32,6 @@ footer {
 
 .help-menu > .list {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .list > ul:first-child {
