@@ -7,15 +7,6 @@
   font-weight: 700;
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-left-side {
-}
-
 .header-logo {
   margin: 0 25px 0 160px;
 }
@@ -31,9 +22,6 @@
 a {
   color: #001a49;
   text-decoration: none;
-}
-
-.header-right-side {
 }
 
 .header-autorisation-menu {
