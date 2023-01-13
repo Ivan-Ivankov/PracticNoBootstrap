@@ -10,3 +10,7 @@ li > a:hover {
 .sub:hover {
   background: linear-gradient(44.11deg, #9a0fc0 15.75%, #7805be 84.63%);
 }
+
+.block-video > img:hover {
+  opacity: 0.5;
+}
