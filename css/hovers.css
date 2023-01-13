@@ -12,5 +12,6 @@ li > a:hover {
 }
 
 .block-video > img:hover {
+  cursor: pointer;
   opacity: 0.5;
 }
