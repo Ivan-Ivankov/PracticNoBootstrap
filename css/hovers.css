@@ -1,0 +1,12 @@
+.header-sign-in:hover,
+.header-nav-menu-item:hover,
+li > a:hover {
+  color: #9f07ff;
+}
+
+.header-reg:hover,
+.container-one-button:hover,
+.videos:hover,
+.sub:hover {
+  background: linear-gradient(44.11deg, #9a0fc0 15.75%, #7805be 84.63%);
+}
